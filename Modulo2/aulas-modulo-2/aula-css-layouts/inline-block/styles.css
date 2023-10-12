@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  background-color: red;
+}
+
+p {
+  background-color: purple;
+}
+
+strong {
+  display: inline-block;
+  background-color: aliceblue;
+  color: white;
+  padding: 100px;
+}

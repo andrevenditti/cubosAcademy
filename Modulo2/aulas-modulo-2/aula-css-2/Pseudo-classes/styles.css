@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: blue;
+  text-transform: uppercase;
+}
+
+button {
+  height: 25px;
+  width: 150px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #1f5;
+  transition: 0.1s;
+}
+
+button:hover {
+  background: #1f9;
+}
+
+button:active {
+  background: #7f5;
+}
+
+a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #000;
+}
+
+input:focus {
+  background-color: #000;
+}
+
+input:focus::placeholder {
+  color: #fff;
+}
+
+strong:first-child {
+  color: #1f5;
+}

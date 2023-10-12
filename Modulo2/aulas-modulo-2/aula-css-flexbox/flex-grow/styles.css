@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  height: 700px;
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item {
+  background-color: aqua;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: solid 1px black;
+  text-align: center;
+}
+
+.item-2 {
+  flex-grow: 1;
+}
+
+.item-1 {
+  flex-grow: 4;
+}
+
+.item-3 {
+  flex-grow: 1;
+}

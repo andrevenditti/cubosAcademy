@@ -1,0 +1,29 @@
+.container-nav {
+  display: flex;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+nav {
+  width: 100vw;
+}
+
+.content-links {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(64, 56, 79);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 16px;
+}
+
+nav a {
+  display: flex;
+}
+
+.link-selected {
+  color: rgba(17, 255, 21, 0.919);
+}

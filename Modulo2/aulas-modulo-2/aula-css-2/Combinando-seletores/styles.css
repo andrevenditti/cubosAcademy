@@ -1,0 +1,11 @@
+div span {
+  color: red;
+}
+
+div + div {
+  background: red;
+}
+
+p > strong {
+  color: red;
+}

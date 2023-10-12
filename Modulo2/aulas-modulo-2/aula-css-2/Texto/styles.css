@@ -1,0 +1,24 @@
+.center {
+  text-align: center;
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.left {
+  text-align: left;
+  text-decoration: line-through;
+  background: red;
+  color: #f4f4f4;
+}
+
+.right {
+  text-align: right;
+  text-decoration: overline;
+  color: #f4d;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}

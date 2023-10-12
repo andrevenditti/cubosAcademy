@@ -1,0 +1,14 @@
+.container-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-profile div {
+  width: 200px;
+  text-align: start;
+}
+
+.container-profile strong {
+  margin-right: 10px;
+}

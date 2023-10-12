@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 300px; */
+  height: 100vh;
+}
+
+.container div {
+  width: 150px;
+}
+
+strong,
+span {
+  display: block;
+}

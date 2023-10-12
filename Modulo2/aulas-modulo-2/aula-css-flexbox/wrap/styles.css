@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  height: 80vh;
+  width: 550px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.item {
+  background-color: aqua;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: solid 1px black;
+  text-align: center;
+}

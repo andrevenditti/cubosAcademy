@@ -1,0 +1,16 @@
+main {
+  display: flex;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: calc(100vh - 150px);
+  padding: 0 10px;
+}
+
+.left {
+  background-color: #88ff644e;
+}

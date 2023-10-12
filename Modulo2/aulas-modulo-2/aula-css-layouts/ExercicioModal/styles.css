@@ -1,0 +1,17 @@
+.modal {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  margin-left: -250px;
+  width: 500px;
+  height: 750px;
+  background-color: #f46;
+}
+
+.modal img {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+}
